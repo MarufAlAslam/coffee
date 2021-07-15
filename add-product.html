@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+    <!-- google font | roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- tagify -->
+    <link rel="stylesheet" href="tagify/tagify.css">
+
+    <!-- slick -->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+
+    <!-- navbar section starts here -->
+    <section class="navbarSection dashNav">
+       <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" class="img-fluid logo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="mb-0  mobile">
+                <li class="d-inline position-relative">
+                    <a href="" id="mobSidebar">
+                        <div class="activeStatus"></div>
+                        <img src="img/user.png" class="img-fluid profileImg" alt="">
+                    </a>
+                </li>
+                <li class="d-inline m-auto">
+                    <span class="account">
+                        $567
+                    </span>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-dark text-uppercase fs-14" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark text-uppercase fs-14" href="#">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-uppercase fs-14" href="#">Orders</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-dark text-uppercase fs-14" href="#">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark text-uppercase fs-14" href="#">Earnings</a>
+                  </li>
+              </ul>
+              <ul class="ml-auto mb-0 navbar-nav desktop">
+                  <li class="nav-item position-relative">
+                      <a href="" class="nav-link" id="profileImg">
+                          <div class="activeStatus"></div>
+                          <img src="img/user.png" class="img-fluid profileImg" alt="">
+                      </a>
+                  </li>
+                  <li class="nav-item m-auto">
+                      <span class="nav-link account">
+                          $567
+                      </span>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+       </div>
+    </section>
+    <!-- navbar section ends here -->
+
+
+
+    <!-- profile Options -->
+    <div class="profileOptionSidebar shadow">
+        <button class="profileSidebarCloser btn d-inline">
+            <i class="fa fa-times"></i>
+        </button>
+        <div class="text-center">
+            <a href="seller-dashboard.html" class="nav-link" id="">
+                <img src="img/user.png" class="img-fluid profileImg" alt="">
+            </a>
+        </div>
+        <ul class="list-unstyled m-0 p-0">
+            <li>
+                <a href="" class="text-dark text-decoration-none">
+                    <i class="fa fa-home mr-2"></i>
+                    Option 1
+                </a>
+            </li>
+            <li>
+                <a href="" class="text-dark text-decoration-none">
+                    <i class="fa fa-home mr-2"></i>
+                    Option 2
+                </a>
+            </li>
+            <li>
+                <a href="" class="text-dark text-decoration-none">
+                    <i class="fa fa-home mr-2"></i>
+                    Option 3
+                </a>
+            </li>
+            <li>
+                <a href="" class="text-dark text-decoration-none">
+                    <i class="fa fa-home mr-2"></i>
+                    Option 4
+                </a>
+            </li>
+            <li>
+                <a href="" class="text-dark text-decoration-none">
+                    <i class="fa fa-home mr-2"></i>
+                    Option 5
+                </a>
+            </li>
+            <li>
+                <hr>
+            </li>
+            <li>
+                <a href="" class="text-dark text-decoration-none">
+                    <i class="fa fa-arrow-left mr-2"></i>
+                    Sign Out
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- profile Options -->
+
+    
+
+    <!-- add-products -->
+    <section class="addProducts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="card indicatorCard border-0">
+                        <div class="card-body">
+                            <hr>
+                            <div class="row">
+                                <div class="col-3 overview active">
+                                    <div class="text-center">
+                                        <button class="btn btn-outline-dark">
+                                            <i class="fa fa-map-marker-alt"></i>
+                                        </button>
+                                        <p class="fs-14 m-0">Overview</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 pricing">
+                                    <div class="text-center">
+                                        <button class="btn btn-outline-dark">
+                                            <i class="fa fa-map-marker-alt"></i>
+                                        </button>
+                                        <p class="fs-14 m-0">Pricing</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 description">
+                                    <div class="text-center">
+                                        <button class="btn btn-outline-dark">
+                                            <i class="fa fa-map-marker-alt"></i>
+                                        </button>
+                                        <p class="fs-14 m-0">Description</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 pictures">
+                                    <div class="text-center">
+                                        <button class="btn btn-outline-dark">
+                                            <i class="fa fa-map-marker-alt"></i>
+                                        </button>
+                                        <p class="fs-14 m-0">Pictures</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 addCard shadow">
+                        <div class="card-body">
+                            <form action="">
+                               <div class="row">
+                                   <div class="col-12 p-2">
+                                        <label for="">Product Title</label>
+                                        <input type="text" class="form-control" placeholder="Enter Title Here" name="" id="">
+                                   </div>
+                                   <div class="col-md-6 p-2">
+                                        <label for="">Coffee Type</label>
+                                        <select name="" class="form-control" id="">
+                                            <option value="" selected disabled>Select Coffee type</option>
+                                            <option value="">something</option>
+                                            <option value="">something</option>
+                                            <option value="">something</option>
+                                            <option value="">something</option>
+                                        </select>
+                                   </div>
+                                   <div class="col-md-6 p-2">
+                                        <label for="">Product Form</label>
+                                        <select name="" class="form-control" id="">
+                                            <option value="" selected disabled>Select Coffee Form</option>
+                                            <option value="">something</option>
+                                            <option value="">something</option>
+                                            <option value="">something</option>
+                                            <option value="">something</option>
+                                        </select>
+                                   </div>
+                                   <div class="col-md-12 p-2">
+                                       <label for="" class="mb-0">Offer Sample</label>
+                                       <input type="radio" class="d-none" name="sample" id="yesSample"> <label for="yesSample" class="btn ynBtn active">Yes</label>
+                                       <input type="radio" class="d-none" name="sample" id="noSample"> <label for="noSample" class="btn ynBtn">No</label>
+                                        
+                                    </div>
+                                    <div class="col-md-12 p-2">
+                                        <label for="">Search Tags</label>
+                                         <!-- <input type="text" class="form-control" placeholder="Enter Tags here" name="" id=""> -->
+                                         <input name="tags" class="form-control" placeholder="write some tags" value="predefined tags here">
+                                         <div class="text-right">
+                                             <p class="fs-14">
+                                                 *add upto 5
+                                             </p>
+                                         </div>
+                                     </div>
+                                     <div class="col-12 p-2">
+                                         <hr>
+                                     </div>
+                                     <div class="col-6 p-2">
+                                         <button class="btn btn-outline-warning">Cancel</button>
+                                     </div>
+                                     <div class="col-6 p-2 text-right">
+                                        <button class="btn btn-warning overviewBtn">Continue</button>
+                                    </div>
+                               </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card border-0 priceCard shadow">
+                        <div class="card-body">
+                            <form action="">
+                               <div class="row">
+                                   <div class="col-12 p-2">
+                                        <label for="">Sample Price Including Shipping</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend m-auto">
+                                                <span>$</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="" name="" id="">
+                                        </div>
+                                   </div>
+                                   <div class="col-12 p-2">
+                                        <label for="">Sample Price Including Shipping</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend m-auto">
+                                                <span>$</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="" name="" id="">
+                                        </div>
+                                   </div>
+                                    <div class="col-md-6 p-2">
+                                        <label for="">Minimum Order</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend m-auto">
+                                                <span>lbs</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="" name="" id="">
+                                        </div>
+                                   </div>
+                                    <div class="col-md-6 p-2">
+                                        <label for="">Available to Ship</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend m-auto">
+                                                <span>lbs</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="" name="" id="">
+                                        </div>
+                                   </div>
+                                    <div class="col-12 p-2">
+                                         <hr>
+                                     </div>
+                                     <div class="col-6 p-2">
+                                         <button class="btn btn-outline-warning">Cancel</button>
+                                     </div>
+                                     <div class="col-6 p-2 text-right">
+                                        <button class="btn btn-warning pricingBtn">Continue</button>
+                                    </div>
+                               </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 describeCard shadow">
+                        <div class="card-body">
+                            <form action="">
+                               <div class="row">
+                                   <div class="col-12 p-2">
+                                        <label for="">Briefly Describe Your Product</label>
+                                        <textarea name="" class="form-control" id="" cols="30" rows="5"></textarea>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="fs-14 text-muted mb-0">min 120</p>
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                <p class="fs-14 text-muted mb-0">
+                                                    <span class="countWord">410</span>/1200 Characters
+                                                </p>
+                                            </div>
+                                        </div>
+                                   </div>
+                                   <div class="col-12 p-2">
+                                       <div class="row">
+                                           <div class="col-md-8 m-auto">
+                                               <label for="" class="mb-0">Add Questions & Answers for Your Buyers.</label>
+                                           </div>
+                                           <div class="col-md-4 text-right m-auto">
+                                               <a href="#exampleModal" class="btn text-warning" data-toggle="modal">
+                                                + Add FAQ
+                                               </a>
+                                           </div>
+                                       </div>
+                                       <div class="accordion" id="accordionExample">
+                                        <div class="card">
+                                          <div class="card-header" id="headingOne">
+                                            <h2 class="mb-0">
+                                              <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                                              </button>
+                                            </h2>
+                                          </div>
+                                      
+                                          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                              <textarea name="" class="form-control" placeholder="Add FAQ" id="" cols="30" rows="3"></textarea>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                   </div>
+                                    <div class="col-12 p-2">
+                                         <hr>
+                                     </div>
+                                     <div class="col-6 p-2">
+                                         <button class="btn btn-outline-warning">Cancel</button>
+                                     </div>
+                                     <div class="col-6 p-2 text-right">
+                                        <button class="btn btn-warning descriptionBtn">Continue</button>
+                                    </div>
+                               </div>
+                            </form>
+                        </div>
+                    </div>
+               
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        <form action="">
+                            <input type="text" class="form-control" placeholder="Question Here" name="" id="">
+                            <textarea name="" class="form-control mt-2" placeholder="Write Answer" id="" cols="30" rows="4"></textarea>
+                        </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-warning br-0" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success br-0">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                    <div class="card border-0 imgCard shadow">
+                        <div class="card-body">
+                            <form action="">
+                               <div class="row">
+                                   <div class="col-12 p-2">
+                                        <label for="">Add Pictures to Your Product</label>
+                                        <div class="row">
+                                            <div class="col-md-11">
+                                                <p class="fs-14">Add memorable content to your gallery to set yourself apart from competitors.</p>
+                                            </div>
+                                            <div class="col-md-1 text-right">
+                                                <p class="fs-14"><span class="imgCount">0</span>/5</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm p-2">
+                                                <input type="file" class="imgUpload" name="" id="upload1">
+                                                <label for="upload1" class="text-center">
+                                                    <button class="btn delBtn delBtn1">
+                                                        <i class="fa fa-times"></i>
+                                                    </button>
+                                                    <img src="img/img-placeholder.png" class="img-fluid" alt="">
+                                                    <p class="fs-14 mb-0">
+                                                        <span class="dragg1">Drag a Photo or</span> <br>
+                                                        <span class="text-primary" id="filename1">Browse</span>
+                                                    </p>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm p-2">
+                                                <input type="file" class="imgUpload" name="" id="upload2">
+                                                <label for="upload2" class="text-center">
+                                                    <button class="btn delBtn delBtn2">
+                                                        <i class="fa fa-times"></i>
+                                                    </button>
+                                                    <img src="img/img-placeholder.png" class="img-fluid" alt="">
+                                                    <p class="fs-14 mb-0">
+                                                        <span class="dragg2">Drag a Photo or</span> <br>
+                                                        <span class="text-primary" id="filename2">Browse</span>
+                                                    </p>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm p-2">
+                                                <input type="file" class="imgUpload" name="" id="upload3">
+                                                <label for="upload3" class="text-center">
+                                                    <button class="btn delBtn delBtn3">
+                                                        <i class="fa fa-times"></i>
+                                                    </button>
+                                                    <img src="img/img-placeholder.png" class="img-fluid" alt="">
+                                                    <p class="fs-14 mb-0">
+                                                        <span class="dragg3">Drag a Photo or</span> <br>
+                                                        <span class="text-primary" id="filename3">Browse</span>
+                                                    </p>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm p-2">
+                                                <input type="file" class="imgUpload" name="" id="upload4">
+                                                <label for="upload4" class="text-center">
+                                                    <button class="btn delBtn delBtn4">
+                                                        <i class="fa fa-times"></i>
+                                                    </button>
+                                                    <img src="img/img-placeholder.png" class="img-fluid" alt="">
+                                                    <p class="fs-14 mb-0">
+                                                        <span class="dragg4">Drag a Photo or</span> <br>
+                                                        <span class="text-primary" id="filename4">Browse</span>
+                                                    </p>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm p-2">
+                                                <input type="file" class="imgUpload" name="" id="upload5">
+                                                <label for="upload5" class="text-center">
+                                                    <button class="btn delBtn delBtn5">
+                                                        <i class="fa fa-times"></i>
+                                                    </button>
+                                                    <img src="img/img-placeholder.png" class="img-fluid" alt="">
+                                                    <p class="fs-14 mb-0">
+                                                        <span class="dragg5">Drag a Photo or</span> <br>
+                                                        <span class="text-primary" id="filename5">Browse</span>
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                   </div>
+                                    <div class="col-12 p-2">
+                                         <hr>
+                                     </div>
+                                     <div class="col-6 p-2">
+                                         <button class="btn btn-outline-warning">Cancel</button>
+                                     </div>
+                                     <div class="col-6 p-2 text-right">
+                                        <button class="btn btn-warning pictureBtn">Continue</button>
+                                    </div>
+                               </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+    <!-- add-products -->
+
+
+
+
+    <!-- fooer sectionn starts here -->
+    <section class="footer newfootColor">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 p-2">
+                    <a href="index.html">
+                        <img src="img/footer-logo.png" class="logo img-fluid" alt="">
+                    </a>
+                    <p class="fs-14 text-white mt-3">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
+                    </p>
+                    <ul class="list-unstyled m-0 p-0 social">
+                        <li class="d-inline-block mr-3">
+                            <a href="" class="text-warning">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="d-inline-block mr-3">
+                            <a href="" class="text-warning">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="d-inline-block mr-3">
+                            <a href="" class="text-warning">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="d-inline-block mr-3">
+                            <a href="" class="text-warning">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-2">
+                    <p class="text-white mb-0 text-uppercase">USEFUL LINKS</p>
+                    <div class="line my-1"></div>
+                    <ul class="list-unstyled m-0 p-0">
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                About our company
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-2">
+                    <p class="text-white mb-0 text-uppercase">Navigation</p>
+                    <div class="line my-1"></div>
+                    <ul class="list-unstyled m-0 p-0">
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Become Seller
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Buyers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Terms And Condition
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Privacy Terms
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 p-2">
+                    <p class="text-white mb-0 text-uppercase">Brands</p>
+                    <div class="line my-1"></div>
+                    <ul class="list-unstyled m-0 p-0">
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Lorem Ipsum
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Dolor Ipsum
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Perspiciatis Lorem
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                Lorem Ipsum
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white fs-14">
+                                More <i class="fa fa-angle-right"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fooer sectionn ends here -->
+
+
+    <!-- help -->
+    <a href="" class="help">
+        <img src="img/info.png" class="img-fluid" alt="">
+    </a>
+    <!-- help -->
+
+    
+    <!-- jquery -->
+    <script src="jquery/jquery.min.js"></script>
+
+    <!-- popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- slick -->
+    <script src="slick/slick.min.js"></script>
+
+    <!-- tagify -->
+    <script src="tagify/jQuery.tagify.min.js"></script>
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    
+    <script>
+        $('[name=tags]').tagify();
+    </script>
+  </body>
+</html>
+
+
+
